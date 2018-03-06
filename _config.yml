@@ -4,8 +4,8 @@
 
 # Site
 title: leeyh-blog
-subtitle: 
-description:
+subtitle: 不知者无畏，全知者无畏 
+description: 踏踏实实做事，老老实实做人
 author: leeyh
 language: zh-Hans
 timezone:
@@ -80,3 +80,26 @@ deploy:
   type: git
   repo: git@github.com:LiYaoheng/liyaoheng.github.io.git
   branch: master
+
+
+#yilia theme 
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+
+#end
