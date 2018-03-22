@@ -53,6 +53,7 @@ public class GsonUtil {
      * 1、int 转变为 double 问题，重写map适配器，判断number逻辑
      * @return
      */
+    //调用：List<Map<String,Object>> jsonList = GsonUtil.fromJson(json,new TypeToken<List<Map<String,Object>>>(){});
     public static <T> T fromJson(String json, TypeToken<T> typeToken){
         Gson gson = new GsonBuilder().serializeNulls().registerTypeAdapter(new TypeToken<Map<String,Object>>(){}.getType()
 		,new MapTypeAdapter()).create();
