@@ -13,4 +13,17 @@
 
 修改域名：
  
- > setting修改，DNS修改，_config.yml修改url
+ 1. > setting修改
+ 2. > DNS修改
+ 3. > _config.yml修改url
+
+----
+小目标：
+
+![apple macbook pro 2017](/image/macbookpro.jpg)
+
+-----
+![好玩的动图](/image/fun.gif)
+
+
+#END
