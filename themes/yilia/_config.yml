@@ -3,7 +3,7 @@
 menu:
   主页: /
   随笔: /tags/随笔/
-  测试: /tags/test/
+  Java: /tags/Java/
 
 # SubNav
 subnav:
@@ -12,7 +12,7 @@ subnav:
   #rss: "#"
   zhihu: "https://www.zhihu.com/explore"
   mail: "mailto:yaoheng_li@qq.com"
-  linkedin: "http://lee2me.xyz/JavaDeveloperResumeLeeyh.pdf"
+  #linkedin: "http://lee2me.xyz/JavaDeveloperResumeLeeyh.pdf"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -24,7 +24,7 @@ subnav:
   #facebook: "#"
   #google: "#"
   #twitter: "#"
-  #linkedin: "#"
+  linkedin: "#"
 
 rss: /atom.xml
 
@@ -56,7 +56,7 @@ weixin:
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -68,7 +68,7 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /image/test7.jpg
 
 #你的头像url
 avatar: /image/test7.jpg
@@ -87,8 +87,8 @@ duoshuo: false
 wangyiyun: false
 
 #3、畅言
-changyan_appid: false
-changyan_conf: false
+changyan_appid: cytL0cu6w
+changyan_conf: prod_b45cb051a1c9619a93842ef6b9844d6a
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
@@ -132,7 +132,7 @@ friends:
   #友情链接6: http://localhost:4000/
 
 aboutme: 
-  #感谢<a href="https://hexo.io/">[Hexo]团队</a>和<a href="https://github.com/litten/hexo-theme-yilia">[Yilia主题]</a>作者的贡献<br><br>
-  ：) leeyh，18届毕业生，学习方向后端<br>喜欢架构方向，主要语言Java<br>内蒙古小伙子一个，北漂～<br><br>可以给我推荐工作，我会给您回复email<br><br><a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=D3ZuYGdqYWhQY2ZPfn4hbGBi" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a>
+  18年毕业，北漂，后端猿<br><br>人最可怕的，就是在一个低水平的认知上，成功了完成了自己的逻辑自洽，最后活成一个平庸的人。<br><br>身体和灵魂总有一个要在路上。<br><br>
+  <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=D3ZuYGdqYWhQY2ZPfn4hbGBi" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a>
 
-#end
+  #END

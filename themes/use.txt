@@ -1,0 +1,14 @@
+关于hexo 的 themes 文件夹下文件的说明：
+该文件夹下每个文件夹都是一个单独的主题。
+#文件夹里面的_config.yml文件是Yilia主题配置文件的备份文件。//删除了，可以在github上找到备份的（原作者或者自己的）
+
+Hexo 命令使用：
+hexo clean // 清除以前编译文件
+hexo g // 重新生成 .html文件
+hexo s // 本地启动服务，测试使用
+hexo d -g // 部署使用git push到github ,参数 g 表示重新编译（可选），该命令等同于：hexo g -d
+
+
+博客文章修改发布以后，使用git status 查看修改的文件，将修改的文件提交到github进行备份，方便在其他电脑进行修改。
+
+end

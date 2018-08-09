@@ -27,6 +27,8 @@ function init() {
 	}
 
 	// about me 转义
+	// 注释了about me 转义，在about me 中使用html自己调整样式
+	// 参考：https://github.com/litten/hexo-theme-yilia/issues/715
 	var $aboutme = document.querySelector('#js-aboutme')
 	if ($aboutme && $aboutme.length !== 0) {
 		$aboutme.innerHTML = $aboutme.innerText
