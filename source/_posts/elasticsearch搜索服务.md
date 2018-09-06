@@ -14,3 +14,9 @@ tags: elasticsearch
 搜索中重要的一个关键技术，**分词器**。
 
 [参考资料之一-官方文档翻译版](http://cwiki.apachecn.org/display/Elasticsearch)
+
+
+[Elasticsearch权威指南(中文版)](https://es.xiaoleilu.com/010_Intro/05_What_is_it.html)
+
+
+[全文搜索引擎 Elasticsearch 入门教程](http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html)
